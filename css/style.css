@@ -128,7 +128,7 @@ a {
     background-color: var(--yellow);
     width: 72px;
     height: 2px;
-    
+
 }
 
 .h2 {
@@ -140,6 +140,7 @@ a {
     text-transform: uppercase;
     color: var(--yellow);
 }
+
 .block .h2 {
     padding-left: 32px;
 }
@@ -176,27 +177,27 @@ a {
     fill: var(--yellow)
 }
 
-.main {
+.main-section {
     padding-top: 860px;
 }
 
-.main__01 {
+.main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 200px;
 }
 
-.main__01:nth-child(odd) {
+.main:nth-child(odd) {
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-.main__01-img {
+.main__img {
     max-width: 480px;
     max-height: 720px;
 }
 
-.main__01-item {
+.main__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,7 +206,7 @@ a {
     position: relative;
 }
 
-.main__01-01 {
+.main__01 {
     font-weight: bold;
     font-size: 240px;
     line-height: 240px;
@@ -216,7 +217,7 @@ a {
     left: -60px;
 }
 
-.main__01-head {
+.main__head {
     font-family: "Times New Roman", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -228,7 +229,7 @@ a {
 
 }
 
-.main__01-text {
+.main__text {
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
@@ -237,7 +238,7 @@ a {
     max-width: 584px;
 }
 
-.main__01-item a {
+.main__item a {
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
@@ -246,20 +247,20 @@ a {
     text-align: center;
 }
 
-.main__01-item a:hover {
+.main__item a:hover {
     color: var(--white);
 }
 
-.main__01-item svg {
+.main__item svg {
     padding-left: 17px;
     padding-top: 3px;
 }
 
-.main__01-item a:hover path {
+.main__item a:hover path {
     fill: var(--white)
 }
 
-.main__01-item a:hover svg{
+.main__item a:hover svg {
     padding-left: 21px;
     transition: 0.5s;
 }
@@ -273,7 +274,8 @@ a {
     display: flex;
     justify-content: space-between;
 }
-.footer-first{
+
+.footer__first {
     padding-top: 5px;
 }
 
@@ -306,7 +308,7 @@ a {
 
 }
 
-.footer-third {
+.footer__last {
     padding-right: 32px;
 }
 
@@ -332,18 +334,18 @@ a {
     top: 330px;
     right: 72px;
     z-index: 1000;
-    border-right: 3px solid rgba(255,255,255,0.5);
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
 }
 
-.menu a{
+.menu a {
     font-size: 18px;
     line-height: 22px;
     text-align: right;
     padding: 20px 32px 20px;
     color: var(--white);
-    }
+}
 
-.menu a:active{
+.menu a:active {
     border-right: 3px solid var(--white);
     padding-right: 33px;
     color: var(--yellow);
